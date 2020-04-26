@@ -1,7 +1,8 @@
 {
-  "name": "hello-world",
+  "name": "@KaraliA/tdd-react-store-locator",
+  "repository": "https://github.com/KaraliA/tdd-react-store-locator.git",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "audit": "0.0.6",
     "enzyme": "^3.2.0",
@@ -19,5 +20,6 @@
   },
   "devDependencies": {
     "axios": "^0.18.1"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
